@@ -1,0 +1,58 @@
+@import "_vars.less";
+
+.pricefull {
+    margin-top: 58px;
+    &__tabcontent {
+        margin-top: 60px;
+    }
+    &__tablinks {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    &__tablink {
+        font-weight: bold;
+        font-size: 24px;
+        text-transform: uppercase;
+        padding: 20px 40px;
+        background: #ADADAD;
+        border-radius: 16px;
+        margin: 0 20px;
+        cursor: pointer;
+        &.active {
+            background: #FF9900;
+        }
+    }
+    &__items {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 67px;
+    }
+    &__item {
+        &__img {
+            width: 100%;
+            padding-bottom: 76%;
+            background-image: url(../img/price.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        table {
+            width: 100%;
+            margin-top: 20px;
+            font-weight: bold;
+            font-size: 18px;
+        }
+        &__btn {
+            padding: 20px 40px;
+            font-weight: bold;
+            font-size: 20px;
+            background: #FF9900;
+            border-radius: 28px;
+            border: none;
+            margin: 0 auto;
+            display: block;
+            margin-top: 25px;
+        }
+    }
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>{{ title }}</title>
+	<link rel="stylesheet" href="css/jquery.fancybox.min.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<!-- head -->
+	<div class="head">
+		<div class="container">
+			<a href="/" class="head__logo">
+				<img src="img/logo.svg" alt="">
+				<div class="head__logo__desc">Работаем в Челябинске и области</div>
+			</a>
+			<div class="head__adress">
+				<div class="head__adress__text">ул. Свердловский проспект 32</div>
+				<button class="btn">Заказать звонок</button>
+			</div>
+			<div class="head__phone">
+				<div class="head__phone__text">
+					<img src="img/head__phone.png" alt="">
+					8-908-067-65-13
+				</div>
+				<button class="btn">Вызвать замерщика</button>
+			</div>
+		</div>
+	</div>
+	<!--END head -->
+
+	<!-- navbar -->
+	<div class="navbar">
+		<div class="container">
+			<ul>
+				<li><a href="/">Продукция</a></li>
+				<li><a href="/">Акции</a></li>
+				<li><a href="/">Доставка</a></li>
+				<li><a href="/">Установка</a></li>
+				<li><a href="/">Рассрочка</a></li>
+				<li><a href="/">Отзывы</a></li>
+				<li><a href="/">Статьи</a></li>
+				<li><a href="/">Контакты</a></li>
+			</ul>
+		</div>
+	</div>
+	<!--END navbar -->
+	{% block content %}
+		
+	{% endblock %}
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__top">
+				<a href="/" class="footer__logo">
+					<img src="img/logo.svg" alt="">
+					<div class="footer__logo__desc">ТЕПЛИЦЫ | НАВЕСЫ |  МЕТАЛЛОКОНСТРУКЦИИ ИЗГОТОВЛЕНИЕ И УСТАНОВКА</div>
+				</a>
+				<ul class="footer__nav">
+					<li><a href="/">Теплицы</a></li>
+					<li><a href="/">Навесы</a></li>
+					<li><a href="/">Художественная</a></li>
+					<li><a href="/">Ковка</a></li>
+					<li><a href="/">Листогиб и рубка</a></li>
+					<li><a href="/">Ворота</a></li>
+				</ul>
+				<div class="footer__contacts">
+					<div class="footer__contacts__phone">
+						<img src="img/head__phone.png" alt="">
+						<div class="footer__contacts__phone__num">8-908-067-65-13</div>
+					</div>
+					<div class="footer__contacts__loc">ул. Свердловский проспект 32 <br> (въезд со стороны <br> ул. Братьев Кашириных)</div>
+				</div>
+			</div>
+			<div class="footer__copyright">
+				© Производственная компания «СвойДом"  |  ИП "Петров К.Д. ОГРНИП 
+			</div>
+		</div>
+	</footer>
+	
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.fancybox.min.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=<b3b5d811-9ed0-4caa-a770-c9d9d2320009>&lang=ru_RU"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+@import "_vars.less";
+
+.contacts {
+    margin-top: 80px;
+    &__title {
+        text-align: center;
+        font-weight: bold;
+        font-size: 36px;
+    }
+    &__content {
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        &__text {
+            padding: 40px 48px;
+            background: #E5FFB6;
+            font-weight: normal;
+            font-size: 32px;
+            .strong {
+                font-weight: bold;
+            }
+            ul {
+                margin-bottom: 40px;
+                li {
+                    margin-bottom: 8px;
+                }
+            }
+        }
+    }
+}
