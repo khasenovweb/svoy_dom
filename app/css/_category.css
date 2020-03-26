@@ -83,14 +83,14 @@
   src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfBBc9.ttf) format('truetype');
 }
 .category {
-  margin-top: 91px;
+  margin-top: 48px;
 }
 .category__items {
   margin-top: 60px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 24px;
-  grid-row-gap: 52px;
+  grid-column-gap: 50px;
+  grid-row-gap: 30px;
 }
 .category__item {
   text-decoration: none;
@@ -108,9 +108,9 @@
 .category__item__title {
   background: #FF9900;
   border-radius: 10px;
-  padding: 20px 0;
+  padding: 15px 0;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 18px;
   text-align: center;
   margin-top: 16px;
 }

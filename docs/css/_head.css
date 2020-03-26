@@ -83,7 +83,7 @@
   src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfBBc9.ttf) format('truetype');
 }
 .head {
-  padding: 30px 0 48px 0;
+  padding: 23px 0;
 }
 .head .container {
   display: -webkit-box;
@@ -95,10 +95,13 @@
   text-decoration: none;
   color: #000000;
 }
+.head__logo img {
+  width: 213px;
+}
 .head__logo__desc {
   font-weight: bold;
-  font-size: 24px;
-  margin-top: 22px;
+  font-size: 16px;
+  margin-top: 5px;
 }
 .head__adress {
   margin-left: auto;
@@ -112,14 +115,14 @@
 }
 .head__adress__text {
   font-weight: bold;
-  font-size: 22px;
-  margin-bottom: 27px;
+  font-size: 14px;
+  margin-bottom: 12px;
 }
 .head__adress .btn {
-  width: 344px;
+  width: 220px;
 }
 .head__phone {
-  margin-left: 60px;
+  margin-left: 30px;
   display: -webkit-box;
   display: flex;
   -webkit-box-orient: vertical;
@@ -130,12 +133,15 @@
 }
 .head__phone__text {
   font-weight: bold;
-  font-size: 22px;
-  margin-bottom: 21px;
+  font-size: 20px;
+  margin-bottom: 6px;
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
           align-items: center;
+}
+.head__phone__text img {
+  width: 15px;
 }
 .head__phone img {
   margin-right: 12px;

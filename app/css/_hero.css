@@ -87,11 +87,11 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  padding: 242px 0;
+  padding: 142px 0;
 }
 .hero__title {
   text-align: center;
   font-weight: bold;
-  font-size: 86px;
+  font-size: 40px;
   color: white;
 }

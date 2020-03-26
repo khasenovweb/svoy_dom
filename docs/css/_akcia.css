@@ -83,11 +83,11 @@
   src: local('Roboto Black'), local('Roboto-Black'), url(https://fonts.gstatic.com/s/roboto/v20/KFOlCnqEu92Fr1MmYUtfBBc9.ttf) format('truetype');
 }
 .akcia {
-  padding: 261px 0;
+  padding: 180px 0;
   background: #EDEDED;
 }
 .akcia__title {
   text-align: center;
   font-weight: bold;
-  font-size: 48px;
+  font-size: 40px;
 }
